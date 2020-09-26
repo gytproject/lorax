@@ -1,6 +1,7 @@
 const ErrorList = {
 
-    treeNotFound: 'Tree Not Found'
+    treeNotFound: 'Tree Not Found',
+    treesNotFound: 'Trees Not Found',
 
 }
 
