@@ -1,5 +1,4 @@
 import { BadRequestException, Inject, Injectable } from '@nestjs/common';
-import { throwError } from 'rxjs';
 import ErrorList from 'src/config/errorList';
 import TreeDTO from './dto/tree.dto';
 import ITreeRepository from './interfaces/trees.repository.interface';
