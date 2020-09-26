@@ -1,11 +1,8 @@
 import { BadRequestException, Inject, Injectable } from '@nestjs/common';
-import { timeStamp } from 'console';
 import ErrorList from 'src/config/errorList';
-import GetTreeByIdDTO from './dto/getTreeById.dto';
 import TreeDTO from './dto/tree.dto';
 import ITreeRepository from './interfaces/trees.repository.interface';
 import ITreeService from './interfaces/trees.service.interface';
-import { Tree } from './schemas/tree.schema';
 import { TreesRepository } from './trees.repository';
 
 @Injectable()

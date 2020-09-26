@@ -1,9 +1,8 @@
-import { Inject, Injectable } from '@nestjs/common';
+import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose/dist';
 import { Model } from 'mongoose';
-import TreeDTO from './dto/tree.dto';
 import ITreeRepository from './interfaces/trees.repository.interface';
-import { Tree, TreeSchema } from './schemas/tree.schema';
+import { Tree } from './schemas/tree.schema';
 
 @Injectable()
 export class TreesRepository implements ITreeRepository {
